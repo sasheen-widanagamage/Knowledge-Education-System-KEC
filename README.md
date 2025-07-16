@@ -24,12 +24,4 @@ Welcome to **KEC (Knowledge Education System)** — a modern, web-based platform
   - Visual analytics for student progress  
   - Grader and Admin dashboard
 
----
 
-## 📸 Screenshots (Optional)
-
-> _You can add screenshots here later using the format below:_
-
-```markdown
-![Home Page](images/homepage.png)
-![Exam Interface](images/exam.png)
