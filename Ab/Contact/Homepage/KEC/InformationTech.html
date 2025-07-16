@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Technology Examination</title>
+    <link href='InformationTech.css' rel='stylesheet'>
+
+    <script type="text/javascript">
+        // character validation
+        function allowOnlyLetters(event) 
+        {
+            var charCode = event.charCode || event.keyCode; // Get the character code
+        
+            //  letter (A-Z or a-z) 
+            if ((charCode >= 65 && charCode <= 90) || 
+                (charCode >= 97 && charCode <= 122) || 
+                charCode == 8 || charCode == 32) { 
+                return true;
+            } else {
+                return false; 
+            }
+        }
+        </script>
+
+</head>
+<body>
+    <div class="exam-description">
+        <h1>Information Technology Examination </h1>
+        <p>
+            Welcome to the Information Technology Examination. Please read the following guidelines carefully before starting your exam:
+        </p>
+        <ul>
+            <li>Ensure you are in a quiet and comfortable environment free from distractions.</li>
+            <li>You have a total of <strong>90 minutes</strong> to complete this exam.</li>
+            <li>Each question carries equal marks. Read each question carefully and provide clear, concise answers.</li>
+            <li>Use appropriate technical terminology where applicable.</li>
+            <li>Click the "Submit" button once you have completed the exam.</li>
+            <li>If you encounter any technical issues, please contact your instructor immediately.</li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <form method="post" onsubmit="return goexampage()">
+        <h2>Exam Questions</h2>
+        
+            <div class="question">
+                <h3>1. Explain the concept of Object-Oriented Programming (OOP) and its key principles.</h3>
+                <textarea name="answer1" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>2. Describe the differences between relational and non-relational databases.</h3>
+                <textarea name="answer2" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>3. What is the role of an operating system in a computer system? Provide examples.</h3>
+                <textarea name="answer3" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>4. Discuss the importance of cybersecurity and provide three strategies to enhance it.</h3>
+                <textarea name="answer4" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>5. How does cloud computing differ from traditional computing? List its advantages.</h3>
+                <textarea name="answer5" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>6. What is the difference between HTTP and HTTPS? Why is HTTPS preferred for secure communication?</h3>
+                <textarea name="answer6" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>7. Define a database and explain the difference between relational and non-relational databases.</h3>
+                <textarea name="answer7" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>8. Discuss the importance of network security. What are some common threats to network security?</h3>
+                <textarea name="answer8" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>9. What is cloud computing? Explain its main models (IaaS, PaaS, SaaS) and provide examples of each.</h3>
+                <textarea name="answer9" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>10. Describe the role of an operating system. How does it manage hardware and software resources?</h3>
+                <textarea name="answer10" rows="4" placeholder="Write your answer here..." onkeypress="return allowOnlyLetters(event)" ></textarea>
+            </div>
+
+
+            <button type="submit" class="submit">Submit</button></a>
+        </form>
+    </div>
+
+
+    <script>
+        function goexampage() {
+            // Optionally handle form data submission via AJAX here
+            
+            // Redirect to exam.html after submission
+            window.location.href = 'examination.html';
+            return false; // Prevent default form submission
+        }
+    </script>
+    
+
+
+</body>
+</html>

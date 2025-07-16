@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combine Mathematics Examination</title>
+    <link href='InformationTech.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+    <div class="exam-description">
+        <h1>Combine Mathematics Examination </h1>
+        <p>
+            Welcome to the Information Technology Examination. Please read the following guidelines carefully before starting your exam:
+        </p>
+        <ul>
+            <li>Ensure you are in a quiet and comfortable environment free from distractions.</li>
+            <li>You have a total of <strong>180 minutes</strong> to complete this exam.</li>
+            <li>Each question carries equal marks. Read each question carefully and provide clear, concise answers.</li>
+            <li>Use appropriate technical terminology where applicable.</li>
+            <li>Click the "Submit" button once you have completed the exam.</li>
+            <li>If you encounter any technical issues, please contact your instructor immediately.</li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <form method="post" onsubmit="return goexampage()">
+        <h2>Exam Questions</h2>
+        
+            <div class="question">
+                <h3>1. Solve the quadratic equation:(x−12x+9=0).</h3>
+                <textarea name="answer1" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>2. A triangle has sides of lengths 7 cm, 24 cm, and 25 cm. Determine if the triangle is a right triangle. If it is, use the Pythagorean theorem to justify your answer..</h3>
+                <textarea name="answer2" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>3. If the probability of event A is p(A)=0.4 and the probability of event B is P(B)=0.6, what is the probability of either event A or event B occurring, assuming they are independent?</h3>
+                <textarea name="answer3" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>4. Solve the system of equations:<br>
+                    2x+3y=12<br>
+                    4x+y=5<br></h3>
+                <textarea name="answer4" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>5. A rectangle has a length that is twice its width. If the perimeter of the rectangle is 36 cm, find the dimensions of the rectangle.</h3>
+                <textarea name="answer5" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>6. Calculate the mean, median, and mode of the following data set: 4,8,6,5,3,7,9,4,8.</h3>
+                <textarea name="answer6" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>7. Find the equation of the line that passes through the points (2, 3) and (4, 7).</h3>
+                <textarea name="answer7" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+
+            <button type="submit" class="submit">Submit</button></a>
+        </form>
+    </div>
+
+
+    <script>
+        function goexampage() {
+            // Optionally handle form data submission via AJAX here
+            
+            // Redirect to exam.html after submission
+            window.location.href = 'examination.html';
+            return false; // Prevent default form submission
+        }
+    </script>
+    
+
+
+</body>
+</html>

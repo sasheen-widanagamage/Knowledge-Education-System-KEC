@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Technology Examination</title>
+    <link href='InformationTech.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+    <div class="exam-description">
+        <h1>Engineering Technology Examination </h1>
+        <p>
+            Welcome to the Engineering Technology Examination. Please read the following guidelines carefully before starting your exam:
+        </p>
+        <ul>
+            <li>Ensure you are in a quiet and comfortable environment free from distractions.</li>
+            <li>You have a total of <strong>45 minutes</strong> to complete this exam.</li>
+            <li>Each question carries equal marks. Read each question carefully and provide clear, concise answers.</li>
+            <li>Use appropriate technical terminology where applicable.</li>
+            <li>Click the "Submit" button once you have completed the exam.</li>
+            <li>If you encounter any technical issues, please contact your instructor immediately.</li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <form method="post" onsubmit="return goexampage()">
+        <h2>Exam Questions</h2>
+        
+            <div class="question">
+                <h3>1. Calculate the area of a circle with a radius of 5 cm. What is the circumference of the circle?</h3>
+                <textarea name="answer1" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>2. A circuit has a resistance of 20 ohms and a voltage of 120 volts. Calculate the current flowing through the circuit using Ohm's Law.</h3>
+                <textarea name="answer2" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>3.If the manufacturing process yields a standard deviation of 0.5 units in the length of a produced component, and the lengths are normally distributed with a mean of 10 units, find the probability that a randomly selected component will have a length between 9.5 and 10.5 units.</h3>
+                <textarea name="answer3" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>4. A hydraulic lift has a piston with a diameter of 0.1 m. If the pressure applied to the fluid in the lift is 150,000 Pa, calculate the force exerted by the lift. Use the formula:</h3>
+                <textarea name="answer4" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>5. If a material has a tensile strength of 200 MPa and a yield strength of 150 MPa, calculate the safety factor if the maximum load applied to the material is 100 MPa.</h3>
+                <textarea name="answer5" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>6. A fluid flows through a pipe with a diameter of 0.2 m and a velocity of 3 m/s. Calculate the flow rate in cubic meters per second. Use the formula:</h3>
+                <textarea name="answer6" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+
+
+            <button type="submit" class="submit">Submit</button></a>
+        </form>
+    </div>
+
+
+    <script>
+        function goexampage() {
+            // Optionally handle form data submission via AJAX here
+            
+            // Redirect to exam.html after submission
+            window.location.href = 'examination.html';
+            return false; // Prevent default form submission
+        }
+    </script>
+    
+
+
+</body>
+</html>

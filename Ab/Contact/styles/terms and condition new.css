@@ -1,0 +1,127 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	background-size:cover;
+	background-position:center;
+    margin:0;
+	padding:0;
+	background-image: url("../img/homebg.jpg");
+	
+
+}
+
+
+.termbox{
+	max-width:600px;
+    background:transparent;
+	backdrop-filter:blur(10px);
+	font-family:"georgia";
+	padding:80px 60px;
+	border:10px black solid;
+}
+  
+.termtext{
+	padding:50px 20px;
+	height:400px;
+	overflow-y:auto;
+	font-size:19px;
+	font-weight:500;
+	color:#f1f1f1;
+	
+	
+}
+
+.termtext::-webkit-Scrollbar{
+	width:5px;
+}
+
+.termtext::-webkit-Scrollbar-thumb{
+	background-color:#808080;
+	
+}
+
+.termtext h2{
+	text-transform:uppercase;
+	color:red;
+}
+
+.termbox h4{
+	font-size:15px;
+	text-align:center;
+	padding:10px 50px;
+}
+
+.termbox h4 span{
+	color:red;
+	
+}
+
+.btn{
+	height:50px;
+	border-radius:6px;
+	font-size:29px;
+	font-weight:500;
+	transition: .5s linear;
+	cursor:pointer;
+}
+
+.red-btn{
+	background-color:red;
+	color:white;
+	border:2px solid transparent;
+	text-decoration:none;
+	padding:10px 15px;
+	border-radius:10px;
+	font-size:20px;
+	font-weight:bold;
+	margin-left:250px;
+	
+	
+}
+
+.btn:hover{
+	transform:scale(1.2);
+	cursor:pointer;
+}
+
+navigation{
+	width:100%;
+	height:65px;
+	background-color:gray;
+	color:#fff;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0px 65px;
+	position:fixed;
+	top:0;
+	z-index:1;
+}
+.logo{
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+}
+.menu{
+	width:65%;
+	display:flex;
+	justify-content:center;
+	list-style:none;
+	
+}
+.menu li{
+	margin-left:20px;
+	
+}
+.menu li a{
+	font-size:19px;
+	color:#fff;
+	text-decoration:none;
+	transition:0.3s ease;
+	
+}
+.menu li a:hover{
+	color:#ccc;
+}

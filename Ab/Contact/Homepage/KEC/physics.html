@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Examination</title>
+    <link href='InformationTech.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+    <div class="exam-description">
+        <h1>Physics Examination </h1>
+        <p>
+            Welcome to the Information Technology Examination. Please read the following guidelines carefully before starting your exam:
+        </p>
+        <ul>
+            <li>Ensure you are in a quiet and comfortable environment free from distractions.</li>
+            <li>You have a total of <strong>90 minutes</strong> to complete this exam.</li>
+            <li>Each question carries equal marks. Read each question carefully and provide clear, concise answers.</li>
+            <li>Use appropriate technical terminology where applicable.</li>
+            <li>Click the "Submit" button once you have completed the exam.</li>
+            <li>If you encounter any technical issues, please contact your instructor immediately.</li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <form method="post" onsubmit="return goexampage()">
+        <h2>Exam Questions</h2>
+        
+            <div class="question">
+                <h3>1. A car accelerates from rest at a constant rate of 2 m/s². How far does it travel in 10 seconds?</h3>
+                <textarea name="answer1" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>2. A ball is thrown vertically upwards with an initial velocity of 20 m/s. Calculate the maximum height it reaches.</h3>
+                <textarea name="answer2" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>3. Explain the principle of conservation of energy and provide an example involving a roller coaster.</h3>
+                <textarea name="answer3" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>4. A 5 kg object is moving with a velocity of 10 m/s. Calculate its kinetic energy. </h3>
+                <textarea name="answer4" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>5. Two charges, +5 µC and -3 µC, are separated by a distance of 0.5 m. Calculate the force between them using Coulomb’s law:</h3>
+                <textarea name="answer5" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>What is the difference between scalar and vector quantities? Give two examples of each.</h3>
+                <textarea name="answer6" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>7. Explain the concept of electrical resistance and provide an equation that relates voltage, current, and resistance.</h3>
+                <textarea name="answer7" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>8. A lens has a focal length of 15 cm. What type of lens is it if it converges light? Calculate its power.</h3>
+                <textarea name="answer8" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>9. In a simple harmonic motion (SHM), if the amplitude of oscillation is 0.5 m and the time period is 2 seconds, calculate the maximum velocity of the oscillating object. Use the formula:</h3>
+                <textarea name="answer9" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>10. A metal rod of length 2 m is heated from 20°C to 80°C. If the coefficient of linear expansion is , calculate the increase in length of the rod. Use the formula:</h3>
+                <textarea name="answer10" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+
+            <button type="submit" class="submit">Submit</button></a>
+        </form>
+    </div>
+
+
+    <script>
+        function goexampage() {
+            // Optionally handle form data submission via AJAX here
+            
+            // Redirect to exam.html after submission
+            window.location.href = 'examination.html';
+            return false; // Prevent default form submission
+        }
+    </script>
+    
+
+
+</body>
+</html>

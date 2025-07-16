@@ -1,0 +1,180 @@
+
+body {
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background : url('homebg.jpg') no-repeat center center/cover;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(4, 4, 30);
+    padding: 10px 0; /* Padding for the header */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px; /* Center the nav */
+}
+
+header img {
+    height: 50px; /* Adjust logo height */
+}
+
+header .navigation ul {
+    display: flex;
+    list-style: none; /* Remove default list styles */
+}
+
+header .navigation ul li {
+    margin-left: 30px; /* Space between nav items */
+}
+
+header .navigation ul li a {
+    text-decoration: none;
+    color: antiquewhite; /* Link color */
+    padding: 10px 15px;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+header .navigation ul li a:hover {
+    background-color: rgb(62, 6, 6); /* Hover effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* Adjust height to fit content */
+}
+
+.box {
+    background: white; /* White background for the box */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Box shadow */
+    width: 300px; /* Fixed width for form */
+}
+
+.field {
+    margin: 15px 0; /* Margin for form fields */
+}
+
+.field input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove outline */
+}
+
+.field input:focus {
+    border-color: rgb(4, 4, 30); /* Change border color on focus */
+}
+
+/* Button Styles */
+.btn {
+    width: 100%; /* Full width for button */
+    background-color: rgb(4, 4, 30); /* Button background */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn:hover {
+    background-color: rgb(62, 6, 6); /* Darker background on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(4, 4, 30);
+    padding: 20px 0; /* Padding for footer */
+    color: antiquewhite; /* Footer text color */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+.footerContainer {
+    width: 80%; /* Width for footer container */
+    margin: auto; /* Center footer */
+    text-align: center; /* Center footer text */
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; /* Margin below social icons */
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 0 10px; /* Margin on sides */
+    border-radius: 50%; /* Circular icons */
+}
+
+.socialIcons a i {
+    font-size: 1.5rem; /* Font size for icons */
+    color: black; /* Icon color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.socialIcons a:hover {
+    background-color: black; /* Background color on hover */
+}
+
+.socialIcons a:hover i {
+    color: rgb(62, 6, 6); /* Change icon color on hover */
+}
+
+.footerNav {
+    margin: 20px 0; /* Margin above and below */
+}
+
+.footerNav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li {
+    margin: 0 15px; /* Margin on sides */
+}
+
+.footerNav ul li a {
+    color: antiquewhite; /* Link color */
+    text-decoration: none; /* No underline */
+    transition: opacity 0.3s; /* Smooth opacity transition */
+}
+
+.footerNav ul li a:hover {
+    opacity: 0.7; /* Change opacity on hover */
+}
+
+/* Footer Bottom */
+.footerBottom {
+    padding: 10px 0; /* Padding for footer bottom */
+}

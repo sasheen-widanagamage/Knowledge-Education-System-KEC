@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry Examination</title>
+    <link href='InformationTech.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+    <div class="exam-description">
+        <h1>Chemistry Examination </h1>
+        <p>
+            Welcome to the Chemistry Examination. Please read the following guidelines carefully before starting your exam:
+        </p>
+        <ul>
+            <li>Ensure you are in a quiet and comfortable environment free from distractions.</li>
+            <li>You have a total of <strong>120 minutes</strong> to complete this exam.</li>
+            <li>Each question carries equal marks. Read each question carefully and provide clear, concise answers.</li>
+            <li>Use appropriate technical terminology where applicable.</li>
+            <li>Click the "Submit" button once you have completed the exam.</li>
+            <li>If you encounter any technical issues, please contact your instructor immediately.</li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <form method="post" onsubmit="return goexampage()">
+        <h2>Exam Questions</h2>
+        
+            <div class="question">
+                <h3>1. Define the term 'mole' and explain its significance in chemistry. How is it related to Avogadro's number?</h3>
+                <textarea name="answer1" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>2. Describe the difference between ionic and covalent bonds. Provide examples of compounds that illustrate each type of bond.</h3>
+                <textarea name="answer2" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>3. Explain the concept of pH. What does it indicate about a solution, and how is it measured?</h3>
+                <textarea name="answer3" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>4. Discuss the laws of thermodynamics. How do they apply to chemical reactions and energy changes?</h3>
+                <textarea name="answer4" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>5. What is the principle behind chromatography? Explain its applications in separating chemical mixtures.</h3>
+                <textarea name="answer5" rows="4" placeholder="Write your answer here..." ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>6. Define and explain the concept of chemical equilibrium. How does Le Chatelier's principle apply to changes in concentration, temperature, and pressure?</h3>
+                <textarea name="answer6" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>7. Define a database and explain the difference between relational and non-relational databases.</h3>
+                <textarea name="answer7" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>8. Describe the structure of an atom. Include details about protons, neutrons, electrons, and isotopes.</h3>
+                <textarea name="answer8" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>9. Explain the difference between endothermic and exothermic reactions. Provide examples of each and describe their energy changes.</h3>
+                <textarea name="answer9" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+            <div class="question">
+                <h3>10. Discuss the role of catalysts in chemical reactions. How do they affect reaction rates and equilibrium? Provide examples of catalytic processes.</h3>
+                <textarea name="answer10" rows="4" placeholder="Write your answer here..."  ></textarea>
+            </div>
+
+
+            <button type="submit" class="submit">Submit</button></a>
+        </form>
+    </div>
+
+
+    <script>
+        function goexampage() {
+            // Optionally handle form data submission via AJAX here
+            
+            // Redirect to exam.html after submission
+            window.location.href = 'examination.html';
+            return false; // Prevent default form submission
+        }
+    </script>
+    
+
+
+</body>
+</html>
